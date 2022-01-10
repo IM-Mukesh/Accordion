@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(216, 203, 203);
+  }
+  h1 {
+    text-align: center;
+    margin: 2.5rem auto;
+    text-decoration: underline;
+    color: rgb(62, 100, 84);
+  } 
+  .container {
+    max-width: 666px;
+    margin: 0 auto;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;  
+    margin-bottom: 1rem;
+  }
+  .question-part {
+    background-color: tomato;
+    font-size: 1.25rem;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .question-part, .answer-part {
+    padding: 1rem;
+  
+  }
+  .answer-part {
+    background-color: rgb(91, 197, 91);
+  }
